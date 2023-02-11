@@ -19,7 +19,7 @@ class App extends React.Component{
                 <div className='logo'>
                   <h1>AI Image Gallery</h1>
                 </div>
-                <div className='provider'><a href='https://nafisbd.com' target='_blank'><h3>By <h1>NafisBD_</h1></h3> </a></div>
+                <div className='provider'><a href='https://nafisbd.com' target='_blank' rel="noreferrer"><h3>By <h1>NafisBD_</h1></h3> </a></div>
               </div>
             </navbar>
 
