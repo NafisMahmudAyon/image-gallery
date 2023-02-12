@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import ImgGallery from './ImgGallary';
 
 
-var listOfImages =[];
+// var listOfImages =[];
 
 class App extends React.Component{
     // importAll(r) {
