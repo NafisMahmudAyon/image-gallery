@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +11,11 @@
 
 .site {
   margin: 0;
-  background: rgb(2,0,36);
-background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  /* background: rgb(2,0,36);
+background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   
+
+background-image: url(./bg-img.jpg);
 }
 
 .site a {
@@ -22,57 +29,7 @@ background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   
 }
 
-navbar {
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  
-}
 
-
-.nav {
-  display: block;
-  border-radius: 100px;
-  
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 80%;
-  background: rgb(2,0,36);
-background: linear-gradient(22deg, rgba(2,0,36,1) 0%, rgba(32,118,221,1) 35%, rgba(80,47,185,1) 100%);
-  
-  margin: auto;
-}
-
-.nav:hover {
-  background-image: linear-gradient(to right top, #4526da, #3e48e3, #4262e9, #4f79eb, #648eeb, #679dec, #72abeb, #82b8e9, #86c2e8, #90cce6, #9ed4e4, #afdce3);
-}
-
-.logo h1{
-  text-align: center;
-  color: #ffffff;
-}
-
-.logo h1:hover {
-  color: black;
-  transition: 2s;
-}
-
-.provider {
-  display: block;
-  text-align: center;
-  margin: 0;
-}
-
-.provider a{
-  text-decoration: none;
-  color: white;
-  margin: 0;
-}
-
-.provider h1 {
-  display: inline-block;
-  font-size: 26px;
-}
 
 img {
 width: 100%;
@@ -138,3 +95,7 @@ column-count: 1;
     border-radius: 10px;
     border: 0px none #e61919;
   }
+
+
+
+  

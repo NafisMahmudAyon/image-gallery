@@ -1,5 +1,10 @@
 
 import React from 'react';
+// import background from './background';
+
+import Navbar from './Navbar';
+import ImgGallery from './ImgGallary';
+
 
 var listOfImages =[];
 
@@ -13,36 +18,9 @@ class App extends React.Component{
     render(){
         return(
 
-          <div className='site'>
-            <navbar>
-              <div className='nav'>
-                <div className='logo'>
-                  <h1>AI Image Gallery</h1>
-                </div>
-                <div className='provider'><a href='https://nafisbd.com' target='_blank' rel="noreferrer"><h3>By <h1>NafisBD_</h1></h3> </a></div>
-              </div>
-            </navbar>
-
-            <div className='main'>
-            <div className='masonry'>
-            
-
-            
-            
-                {
-                      listOfImages.map(
-                        (image, index) =>    (
-                          <main>
-              <article className='mItems'>
-                              <img key={index} src={image} alt="info"></img>
-                              </article>           
-            </main>
-                        )
-                      )
-                }
-        
-          </div>
-          </div>
+          <div className='flex flex-col h-screen'>
+            <Navbar />
+            <ImgGallery />
           </div>
         )
     }

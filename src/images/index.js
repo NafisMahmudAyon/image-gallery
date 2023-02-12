@@ -1,6 +1,5 @@
-export default App;
-import React from 'react';
-import ReactDOM from 'react-dom';
+
+import React from 'react'
 var listOfImages =[];
 
 class App extends React.Component{
@@ -22,3 +21,4 @@ class App extends React.Component{
         )
     }
 }
+export default App;

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&family=Roboto:wght@100;400&display=swap');
+
+.navbar {
+    display: grid;
+    align-items: center;
+    
+    background-image: url(./bg-img.jpg);
+    /* border-bottom: 1px solid white; */
+}
+
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.logo {
+    width: 100vw;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+
+.tex {
+    font-family: 'Roboto', 'sans-serif';
+    display: block;
+    font-weight: 100;
+    width: 100vw;
+    border: none;
+}
+.tex h2 {
+    font-family: 'Roboto', 'sans-serif';
+    display: inline-block;
+    font-weight: 400;
+}
