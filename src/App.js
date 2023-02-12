@@ -9,12 +9,12 @@ import ImgGallery from './ImgGallary';
 var listOfImages =[];
 
 class App extends React.Component{
-    importAll(r) {
-        return r.keys().map(r);
-    }
-    componentWillMount() {
-        listOfImages = this.importAll(require.context('./images/', false, /\.(png|jpe?g|webp|svg)$/));
-    }
+    // importAll(r) {
+    //     return r.keys().map(r);
+    // }
+    // componentWillMount() {
+    //     listOfImages = this.importAll(require.context('./images/', false, /\.(png|jpe?g|webp|svg)$/));
+    // }
     render(){
         return(
 
