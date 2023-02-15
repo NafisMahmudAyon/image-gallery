@@ -1,9 +1,14 @@
 
 import React from 'react';
+import { Routes, Route, } from "react-router-dom";
 // import background from './background';
 
-import Navbar from './Navbar';
-import ImgGallery from './ImgGallary';
+// import Navbar from './Navbar';
+// import ImgGallery from './ImgGallary';
+import Midjourney from './Midjourney';
+import Lexica from './Lexica';
+import Home from './Home';
+
 
 
 // var listOfImages =[];
@@ -19,8 +24,17 @@ class App extends React.Component{
         return(
 
           <div className='flex flex-col h-screen'>
-            <Navbar />
-            <ImgGallery />
+            <Routes>
+              {/* <Switch> */}
+                <Route path='/' element={<Home />} />
+                <Route path='/midjourney' element={<Midjourney />} />
+                <Route path='/lexica' element={<Lexica />} />
+              {/* </Switch> */}
+            </Routes>
+            {/* <Navbar />
+            <ImgGallery /> */}
+            
+            
           </div>
         )
     }

@@ -9,7 +9,7 @@ class ImgGallery extends React.Component{
         return r.keys().map(r);
     }
     componentWillMount() {
-        listOfImages = this.importAll(require.context('./images/', false, /\.(png|jpe?g|webp|jfif|svg)$/));
+        listOfImages = this.importAll(require.context('./images/Midjourney', false, /\.(png|jpe?g|webp|jfif|svg)$/));
     }
 
     render() {
