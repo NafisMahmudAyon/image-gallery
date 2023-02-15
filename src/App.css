@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 * {
-  background-color: #121212
+  background-color: #121212;
+  /* overflow-x: hidden; */
 }
 img {
 width: 100%;
