@@ -8,6 +8,7 @@ import { Routes, Route, } from "react-router-dom";
 import Midjourney from './Midjourney';
 import Lexica from './Lexica';
 import Home from './Home';
+import Extra from './Extra';
 
 
 
@@ -29,6 +30,7 @@ class App extends React.Component{
                 <Route path='/' element={<Home />} />
                 <Route path='/midjourney' element={<Midjourney />} />
                 <Route path='/lexica' element={<Lexica />} />
+                <Route path='/extra' element={<Extra />} />
               {/* </Switch> */}
             </Routes>
             {/* <Navbar />
