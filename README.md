@@ -1,3 +1,18 @@
+# AI Image Gallery
+
+This is a AI Image Gallery website.
+
+Here are the preview of site.
+
+![NafisBD.com](https://i.imgur.com/XtCQNmT.png)
+
+#
+
+[Here you can see the Demo](https://image-gallery-nafisbd.netlify.app)
+
+Coded by [Nafis Mahmud Ayon](https://github.com/NafisMahmudAyon). ©2023 [NafisBD](https://nafisbd.com/). All right reserved.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
